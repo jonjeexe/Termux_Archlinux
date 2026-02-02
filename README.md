@@ -72,3 +72,15 @@ useradd -m -G wheel jonjeexe
 ```bash
 passwd jonjeexe
 ```
+<br>
+
+10. Add the user to sudoers file so you can execute sudo commands
+
+```bash
+nano /etc/sudoers
+```
+
+- Past this bottom of the file 
+```bash
+jonjeexe  ALL=(ALL:ALL) ALL
+```
