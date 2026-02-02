@@ -90,7 +90,9 @@ jonjeexe  ALL=(ALL:ALL) ALL
 su - jonjeexe
 ```
 <br>
+
 12. Check fastfetch
+
 ```bash
 sudo pacman -S fastfetch
 fastfetch
