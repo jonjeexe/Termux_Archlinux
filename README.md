@@ -41,5 +41,6 @@ pacman -Sy
 ```bash
 pacman -Syu
 ```
+<br>
 `if prompt ask [y/n] then enter y `
 
