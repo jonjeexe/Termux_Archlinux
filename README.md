@@ -1,4 +1,6 @@
 # Termux Archlinux
+![Image](https://github.com/user-attachments/assets/612b1141-18ae-41df-8cde-b96f9a7f685b)
+
 Install arch Linux on your mobile using termux without root using proot so follow the instructions given below <br>
 
 # Requirement
