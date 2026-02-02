@@ -22,17 +22,21 @@ pkg install proot-distro -y
 <br>
 
 3. Install arch Linux vie proot-distro
+
 ```bash
 proot-distro install archlinux
 ```
 <br>
+
 4. Enter into arch linux OS
+
 ```bash
 proot-distro login archlinux
 ```
 <br>
 
 5. Update arch linux packages
+
 ```bash
 pacman -Sy
 ```
@@ -43,9 +47,17 @@ pacman -Sy
 pacman -Syu
 ```
 <br>
+
 7. Install xfce4 ( optinal) if you want GUI must install this.
 
 ```bash
 pacman -S xfce4
 ```
 
+<br>
+
+8. Install sudo to give permission to the user
+
+```bash
+pacman -S sudo
+```
