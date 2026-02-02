@@ -19,3 +19,27 @@ pkg update && upgrade
 ```bash
 pkg install proot-distro -y
 ```
+<br>
+
+3. Install arch Linux vie proot-distro
+```bash
+proot-distro install archlinux
+```
+<br>
+4. Enter into arch linux OS
+```bash
+proot-distro login archlinux
+```
+<br>
+
+5. Update arch linux packages
+```bash
+pacman -Sy
+```
+<br>
+6. Now update all the package into latest version
+```bash
+pacman -Syu
+```
+`if prompt ask [y/n] then enter y `
+
