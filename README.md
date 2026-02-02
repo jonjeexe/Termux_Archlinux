@@ -61,3 +61,14 @@ pacman -S xfce4
 ```bash
 pacman -S sudo
 ```
+<br>
+
+9. Add new user & password with custom username
+
+```bash
+useradd -m -G wheel jonjeexe
+```
+Now set password of ur new user
+```bash
+passwd jonjeexe
+```
