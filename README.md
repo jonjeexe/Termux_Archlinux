@@ -76,7 +76,7 @@ passwd jonjeexe
 
 10. Add the user to sudoers file so you can execute sudo commands
 
-```bash
+```bash 
 nano /etc/sudoers
 ```
 
@@ -99,3 +99,11 @@ su - jonjeexe
 sudo pacman -S fastfetch
 fastfetch
 ```
+
+13. Direct login into specific user
+
+```bash
+proot-distro login archlinux --user jonjeexe
+```
+
+You can create a boot.sh and paste the cmd if you don't want to write everytime you open ternux.
