@@ -85,14 +85,16 @@ nano /etc/sudoers
 jonjeexe  ALL=(ALL:ALL) ALL
 ```
 <br>
+
 11. Now login into your account
+
 ```bash
 su - jonjeexe
 ```
 <br>
 
 12. Check fastfetch
-
+ 
 ```bash
 sudo pacman -S fastfetch
 fastfetch
