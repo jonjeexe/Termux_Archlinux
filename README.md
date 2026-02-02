@@ -42,5 +42,8 @@ pacman -Sy
 ```bash
 pacman -Syu
 ```
-if prompt ask [y/n] then enter y
+<br>
+7. Install xfce4 ( optinal) if you want GUI must install this 
+```bash
+
 
