@@ -37,10 +37,10 @@ proot-distro login archlinux
 pacman -Sy
 ```
 <br>
+
 6. Now update all the package into latest version
 ```bash
 pacman -Syu
 ```
-<br>
-`if prompt ask [y/n] then enter y `
+if prompt ask [y/n] then enter y
 
