@@ -68,7 +68,7 @@ pacman -S sudo
 ```bash
 useradd -m -G wheel jonjeexe
 ```
-Now set password of ur new user
+- Now set password of ur new user
 ```bash
 passwd jonjeexe
 ```
