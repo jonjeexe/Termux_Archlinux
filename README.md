@@ -42,9 +42,9 @@ pacman -Sy
 ```bash
 pacman -Syu
 ```
-
 <br>
-7. Install xfce4 ( optinal) if you want GUI must install this 
+7. Install xfce4 ( optinal) if you want GUI must install this.
+
 ```bash
 pacman -S xfce4
 ```
